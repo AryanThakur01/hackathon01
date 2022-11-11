@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    z-index: 2;
+}
+.card1::before{
+    content: "";
+    position: absolute;
+    top: -500px;
+    left: 0;
+    height: 950px;
+    width: 100%;
+    background: url("../images/backgrounds/landingBackground2.jpg") no-repeat center center/cover;
+    opacity: 0.5;
+    z-index: -1;
+}
+.card1{
+    position: absolute;
+    display: flex;
+    /* color: white; */
+    /* background-color: white; */
+    font-weight: 900;
+    font-size: 20px;
+    justify-content: flex-end;
+    margin-top: 200px;
+}
+.card1 div{
+    /* transform: rotateZ(-30deg); */
+    font-family: cursive;
+    width: 500px;
+    height: fit-content;
+    transform: rotateZ(-30deg);
+    color: white;
+    font-size: 50px;
+
+}
+
+
+/* SECTION STYLING */
+.animals{
+    position: absolute;
+    margin-top: 645px;
+    background-color: white;
+    height: fit-content - 1px;
+    padding: 20px;
+}
+.animals div:first-child{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Fragment Mono', monospace;
+}
+.animals div:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.animals img{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}

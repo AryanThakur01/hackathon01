@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>data</title>
+    <link rel="stylesheet" href="../style/styleHome.css">
+    <link rel="stylesheet" href="../style/styleData.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo" style="color: rgb(0, 0, 0); text-shadow: 0px 0px 3px white;">UKFF</a>
+        <div class="navlinks">
+            <ul>
+                <li><a href="/index.html" style="color: black;">Home</a></li>
+                <li><a href="/pages/fauna.html" style="color: black;">Flora & Fauna</a></li>
+                <li><a href="#" class="active" style="color: black;">Review</a></li>
+            </ul>
+        </div>
+        <img src="../images/icons/menu-icon-19353.png" alt="menu" class="menu">
+    </nav>
+    <script src="/script/hamburger.js"></script>
+    <section class="takeData">
+        <form action="">
+            <div style="font-size: 20px; font-weight: bold;">Upload the data update</div>
+            <input type="text" placeholder="Enter your name" name="name" id="name">
+            <input type="email" placeholder="Enter your email" name="email" id="mail">
+            <textarea name="message" id="message" rows="3" placeholder="Enter the message"></textarea>
+            <label for="img" style="color: rgb(0, 0, 0); text-shadow: 0px 0px 2px wheat;">Select the file:</label>
+            <input type="file" accept="file/*" name="image" id="img">
+            <input type="submit" value="SUBMIT" class="submit">
+        </form>
+    </section>
+</body>
+</html>
